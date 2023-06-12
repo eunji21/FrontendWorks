@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>네이버 : 로그인</title>
+</head>
+<body>
+  <div id="wrap">
+    <div id="header"> <!-- header s -->
+      <div class="header_inner">
+        <div class="logo"><a href="http://naver.com" title="본문 바로가기"><h1>NAVER</h1></a></div>
+        <select name="lang" id="user_lang">
+          <option value="KO">한국어</option>
+          <option value="EN_US">English</option>
+          <option value="EN_US">English</option>
+        </select>
+      </div>
+    </div><!-- header f -->
+
+    <div id="login_wrap"> <!-- login_wrap s -->
+      <ul class="menu">
+        <li><a href="#">ID 로그인</a></li>
+        <li><a href="#">일회용 번호</a></li>
+        <li><a href="#">QR코드</a></li>
+      </ul>
+      <div class="popup">
+        <span>PC방 등 공용PC라면 QR코드 로그인이 더 안전해요.<button type="button" class="popup_button">x</button></span>
+      </div>
+
+      <div class="login_inner"> <!-- login_inner s -->
+        <div class="id_wrap">
+          <div><img src="#" alt="아이디 아이콘"></div>
+          <input type="text" id="id" name="id" placeholder="아이디" title="아이디"><span class="delete">삭제</span>
+        </div>
+
+        <div class="pw_wrap">
+          <div><img src="#" alt="비밀번호 아이콘"></div>
+          <input type="password" id="pw" name="pw" placeholder="비밀번호" title="비밀번호"><span class="delete">삭제</span>
+        </div>
+
+        <div class="check_wrap"> <!-- check_wrap s -->
+          <div class="login_keep">
+            <input type="checkbox">
+            <label for="login_keep">로그인 상태 유지</label>
+          </div>
+          <div class="ip_check">
+            <a href="#" target="_blank" title="IP보안">IP보안</a>
+            <input type="checkbox" name="ip_check" id="ip_check">
+            <label for="ip_check">OFF</label>
+          </div>
+        </div> <!-- check_wrap f-->
+        
+        <div class="error_wrap">
+          <div class="error_message"><strong>CapsLock</strong>이 켜져 있습니다.</div>
+          <div class="error_message"><strong>아이디를</strong> 입력해 주세요.</div>
+          <div class="error_message"><strong>비밀번호를</strong> 입력해 주세요.</div>          
+        </div>
+
+        <div class="login_btn">
+          <button type="submit">로그인</button>
+        </div>
+      </div> <!-- login_inner f -->
+    </div> <!-- login_wrap f -->
+
+    <ul class="find_wrap">
+      <li><a href="#" target="_blank">비밀번호 찾기</a></li>
+      <li><a href="#" target="_blank">아이디 찾기</a></li>
+      <li><a href="#" target="_blank">회원가입</a></li>
+    </ul>
+
+    <div class="banner">
+      <a href="#"><img src="#" alt="배너 이미지"></a>
+    </div>
+
+    <div id="footer"> <!-- footer s -->
+      <div class="footer_inner">
+        <ul class="footer_link">
+          <li><a href="">이용약관</a></li>
+          <li><a href="">개인정보처리방침</a></li>
+          <li><a href="">책임의 한계와 법적고지</a></li>
+          <li><a href="">회원정보 고객센터</a></li>
+        </ul>
+        <div class="footer_copy">
+          <a href="http://naver.com">NAVER</a>
+          <span>Copyright</span>
+          <span>&copy; NAVER Corp.</span>
+          <span>All Rights Reserved.</span>
+          <span>20</span>
+        </div>
+      </div>
+    </div> <!-- footer f -->
+  </div> <!-- wrap f -->
+</body>
+</html>
